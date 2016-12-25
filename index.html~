@@ -18,7 +18,7 @@
  
  $.ajax({
  type: "POST",
- url:"http://localhost/serial/index.php",
+ url:"http://localhost/server_pg/index.php",
  data: dataString,
  crossDomain: true,
  cache: false,
@@ -30,7 +30,7 @@ $("#off").click(function(){
  
  $.ajax({
  type: "POST",
- url:"http://localhost/serial/index.php",
+ url:"http://localhost/server_pg/index.php",
  data: dataString,
  crossDomain: true,
  cache: false,
